@@ -19,7 +19,7 @@
     },
     "workbench.colorTheme": "Nord",
     "workbench.colorCustomizations": {
-        "list.activeSelectionBackground": "#3c4154",
-        "list.activeSelectionForeground": "#ffffff"
+        "list.activeSelectionBackground": "#638897",
+        "list.activeSelectionForeground": "#d8dee9"
     }
 }
