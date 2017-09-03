@@ -17,5 +17,9 @@
         "vue-html": "html",
         "vue": "html"
     },
-    "workbench.colorTheme": "Nord"
+    "workbench.colorTheme": "Nord",
+    "workbench.colorCustomizations": {
+        "list.activeSelectionBackground": "#3c4154",
+        "list.activeSelectionForeground": "#ffffff"
+    }
 }
