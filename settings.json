@@ -1,0 +1,21 @@
+// Colocar suas configurações nesse arquivo para sobrecrever as configurações padrão
+{
+    "workbench.iconTheme": "vscode-icons",
+    "window.zoomLevel": 0,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "editor.formatOnPaste": false,
+    "editor.wordWrap": "off",
+    "files.insertFinalNewline": true,
+    "git.enableSmartCommit": true,
+    "editor.fontFamily": "Monaco, Consolas, 'Courier New', monospace",
+    "editor.fontSize": 16,
+    "editor.lineHeight": 26,
+    "editor.fontWeight": "normal",
+    "editor.letterSpacing": 0.5,
+    "emmet.syntaxProfiles": {
+        "Laravel Blade": "html",
+        "vue-html": "html",
+        "vue": "html"
+    },
+    "workbench.colorTheme": "Nord"
+}
