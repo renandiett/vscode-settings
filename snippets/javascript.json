@@ -2,16 +2,14 @@
     "Print to console":{
         "prefix":"log",
         "body":[
-            "console.log('$1');",
-            "$2"
+            "console.log('$1');"
         ],
         "description":"Log output to console"
     },
     "Browser alert":{
         "prefix":"al",
         "body":[
-            "alert('$1');",
-            "$2"
+            "alert('$1');"
         ]
     }
 }
