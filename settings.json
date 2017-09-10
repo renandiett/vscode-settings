@@ -7,11 +7,11 @@
     "editor.wordWrap": "off",
     "files.insertFinalNewline": true,
     "git.enableSmartCommit": true,
-    "editor.fontFamily": "Monaco, Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "Menlo, Consolas, 'Courier New', monospace",
     "editor.fontSize": 16,
     "editor.lineHeight": 26,
     "editor.fontWeight": "normal",
-    "editor.letterSpacing": 0.5,
+    "editor.letterSpacing": 0,
     "emmet.syntaxProfiles": {
         "Laravel Blade": "html",
         "vue-html": "html",
