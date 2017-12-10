@@ -12,6 +12,7 @@
     "editor.lineHeight": 26,
     "editor.fontWeight": "normal",
     "editor.letterSpacing": 0,
+    "files.eol": "\n",
     "emmet.syntaxProfiles": {
         "Laravel Blade": "html",
         "vue-html": "html",
