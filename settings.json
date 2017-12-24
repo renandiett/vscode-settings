@@ -13,11 +13,10 @@
     "editor.fontWeight": "normal",
     "editor.letterSpacing": 0,
     "files.eol": "\n",
-    "emmet.syntaxProfiles": {
-        "Laravel Blade": "html",
-        "vue-html": "html",
-        "vue": "html"
+    "emmet.includeLanguages": {
+        "blade": "html"
     },
+    "emmet.triggerExpansionOnTab": true,
     "workbench.colorTheme": "Nord",
     "workbench.colorCustomizations": {
         "list.activeSelectionBackground": "#638897",
