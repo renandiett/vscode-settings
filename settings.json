@@ -4,6 +4,7 @@
     "window.zoomLevel": 0,
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
     "editor.formatOnPaste": false,
+    "files.trimTrailingWhitespace": true,
     "editor.wordWrap": "off",
     "files.insertFinalNewline": true,
     "git.enableSmartCommit": true,
