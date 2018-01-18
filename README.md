@@ -9,3 +9,4 @@ You need to install the Nord theme for entire use of this settings.
 * https://marketplace.visualstudio.com/items?itemName=tomoki1207.selectline-statusbar
 * https://marketplace.visualstudio.com/items?itemName=linyang95.php-symbols
 * https://marketplace.visualstudio.com/items?itemName=cjhowe7.laravel-blade
+* https://marketplace.visualstudio.com/items?itemName=AiryShift.spaces-inside-braces
