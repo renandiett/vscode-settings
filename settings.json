@@ -1,26 +1,23 @@
 // Colocar suas configurações nesse arquivo para sobrecrever as configurações padrão
 {
-    "workbench.iconTheme": "vscode-icons",
-    "window.zoomLevel": 0,
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
-    "editor.formatOnPaste": false,
-    "files.trimTrailingWhitespace": true,
+    "workbench.colorTheme": "Material Theme",
+    "workbench.iconTheme": "vscode-icons",
+    "window.zoomLevel": -1,
+    "editor.formatOnPaste": true,
     "editor.wordWrap": "off",
-    "files.insertFinalNewline": true,
-    "git.enableSmartCommit": true,
     "editor.fontFamily": "Menlo, Consolas, 'Courier New', monospace",
     "editor.fontSize": 16,
     "editor.lineHeight": 26,
     "editor.fontWeight": "normal",
     "editor.letterSpacing": 0,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
     "files.eol": "\n",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "emmet.triggerExpansionOnTab": true,
     "emmet.includeLanguages": {
         "blade": "html"
     },
-    "emmet.triggerExpansionOnTab": true,
-    "workbench.colorTheme": "Nord",
-    "workbench.colorCustomizations": {
-        "list.activeSelectionBackground": "#638897",
-        "list.activeSelectionForeground": "#d8dee9"
-    }
 }
