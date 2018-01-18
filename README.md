@@ -1,5 +1,5 @@
-# vscode-settings
-You need to install the Nord theme for entire use of this settings.
+# Theme
+[Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
 
 # Extensions
 * https://marketplace.visualstudio.com/items?itemName=tomoki1207.vscode-input-sequence
