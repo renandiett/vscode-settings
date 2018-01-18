@@ -1,0 +1,270 @@
+{
+	"Foreach": {
+		"prefix": "b:foreach",
+		"body": [
+			"@foreach ($$1s as $$1)",
+			"\t$0",
+			"@endforeach"
+		]
+	},
+	"Forelse": {
+		"prefix": "b:forelse",
+		"body": [
+			"@forelse ($$1s as $$1)",
+			"\t$2",
+			"@empty",
+			"\t$0",
+			"@endforelse"
+		]
+	},
+	"For": {
+		"prefix": "b:for",
+		"body": [
+			"@for ($$i = 0; $$i < $1; $$i++)",
+			"\t$0",
+			"@endfor"
+		]
+	},
+	"While": {
+		"prefix": "b:while",
+		"body": [
+			"@while (${1:condition})",
+			"\t$0",
+			"@endwhile"
+		]
+	},
+	"Continue": {
+		"prefix": "b:continue",
+		"body": [
+			"@continue${1:(${2:condition})}"
+		]
+	},
+	"If": {
+		"prefix": "b:if",
+		"body": [
+			"@if (${1:condition})",
+			"\t$0",
+			"@endif"
+		]
+	},
+	"If Else": {
+		"prefix": "b:ife",
+		"body": [
+			"@if (${1:condition})",
+			"\t$2",
+			"@else",
+			"\t$0",
+			"@endif"
+		]
+	},
+	"If ElseIf": {
+		"prefix": "b:ifeif",
+		"body": [
+			"@if (${1:condition})",
+			"\t$2",
+			"@elseif (${3:condition})",
+			"\t$4",
+			"@else",
+			"\t$0",
+			"@endif"
+		]
+	},
+	"Unless": {
+		"prefix": "b:unless",
+		"body": [
+			"@unless (${1:condition})",
+			"\t$0",
+			"@endunless"
+		]
+	},
+	"Isset": {
+		"prefix": "b:isset",
+		"body": [
+			"@isset ($${1:records})",
+			"\t$0",
+			"@endisset"
+		]
+	},
+	"Empty": {
+		"prefix": "b:empty",
+		"body": [
+			"@empty ($${1:records})",
+			"\t$0",
+			"@endempty"
+		]
+	},
+	"Auth": {
+		"prefix": "b:auth",
+		"body": [
+			"@auth$1",
+			"\t$0",
+			"@endauth"
+		]
+	},
+	"Guest": {
+		"prefix": "b:guest",
+		"body": [
+			"@guest$1",
+			"\t$0",
+			"@endguest"
+		]
+	},
+	"Verbatim": {
+		"prefix": "b:verbatim",
+		"body": [
+			"@verbatim",
+			"\t$0",
+			"@endverbatim"
+		]
+	},
+	"Yield": {
+		"prefix": "b:yield",
+		"body": [
+			"@yield('$1'${2:, '${3:default}'})"
+		]
+	},
+	"Json": {
+		"prefix": "b:json",
+		"body": [
+			"@json($${1:array})"
+		]
+	},
+	"Extends": {
+		"prefix": "b:extends",
+		"body": [
+			"@extends('$0')"
+		]
+	},
+	"Section": {
+		"prefix": "b:section",
+		"body": [
+			"@section('$1'${2:, '$3'})",
+			"${4:\t$0",
+			"@endsection}"
+		]
+	},
+	"Parent": {
+		"prefix": "b:parent",
+		"body": [
+			"@parent"
+		]
+	},
+	"Include": {
+		"prefix": "b:include",
+		"body": [
+			"@include('$1'${2:, ['${3:key}' => ${4:'${5:value}'}]})"
+		]
+	},
+	"Include If": {
+		"prefix": "b:includeIf",
+		"body": [
+			"@includeIf('$1'${2:, ['${3:key}' => ${4:'${5:value}'}]})"
+		]
+	},
+	"Include When": {
+		"prefix": "b:includeWhen",
+		"body": [
+			"@includeWhen(${1:condition}, '$2'${3:, ['${4:key}' => ${5:'${6:value}'}]})"
+		]
+	},
+	"Include First": {
+		"prefix": "b:includeFirst",
+		"body": [
+			"@includeFirst($${1:views}${2:, ['${3:key}' => ${4:'${5:value}'}]})"
+		]
+	},
+	"Each": {
+		"prefix": "b:each",
+		"body": [
+			"@each('${1:view.name}', $${2:items}, '${3:item}'${4:, '${5:view.empty}'})"
+		]
+	},
+	"Component": {
+		"prefix": "b:component",
+		"body": [
+			"@component('$1')",
+			"\t$0",
+			"@endcomponent"
+		]
+	},
+	"Slot": {
+		"prefix": "b:slot",
+		"body": [
+			"@slot('$1'${2:, '$3'})",
+			"${4:\t$0",
+			"@endslot}"
+		]
+	},
+	"Has Section": {
+		"prefix": "b:hasSection",
+		"body": [
+			"@hasSection('$1')",
+			"\t$0",
+			"@endif"
+		]
+	},
+	"Switch": {
+		"prefix": "b:switch",
+		"body": [
+			"@switch($${1:variable})",
+			"",
+			"\t@case(${2:value})",
+			"\t\t${3:...}",
+			"\t\t@break",
+			"",
+			"\t@default",
+			"\t\t${4:...}",
+			"",
+			"@endswitch"
+		]
+	},
+	"Case": {
+		"prefix": "b:case",
+		"body": [
+			"@case(${1:value})",
+			"\t${0:...}",
+			"\t@break"
+		]
+	},
+	"Break": {
+		"prefix": "b:break",
+		"body": [
+			"@break${1:(${2:condition})}"
+		]
+	},
+	"Default": {
+		"prefix": "b:default",
+		"body": [
+			"@default",
+			"\t${0:...}"
+		]
+	},
+	"Php": {
+		"prefix": "b:php",
+		"body": [
+			"@php",
+			"\t$0",
+			"@endphp"
+		]
+	},
+	"Stack": {
+		"prefix": "b:stack",
+		"body": [
+			"@stack('${0:scripts}')"
+		]
+	},
+	"Push": {
+		"prefix": "b:push",
+		"body": [
+			"@push('${1:scripts}')",
+			"\t$0",
+			"@endpush"
+		]
+	},
+	"Inject": {
+		"prefix": "b:inject",
+		"body": [
+			"@inject('${1:metrics}', '${2:App\\Services\\MetricsService}')"
+		]
+	},
+}
