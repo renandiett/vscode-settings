@@ -1,16 +1,17 @@
 // Colocar suas configurações nesse arquivo para sobrecrever as configurações padrão
 {
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
-    "workbench.colorTheme": "Material Theme",
+    "workbench.colorTheme": "Dracula Soft",
     "workbench.iconTheme": "vscode-icons",
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
     "editor.formatOnPaste": true,
     "editor.wordWrap": "off",
     "editor.fontFamily": "Menlo, Consolas, 'Courier New', monospace",
     "editor.fontSize": 16,
-    "editor.lineHeight": 26,
+    "editor.lineHeight": 30,
     "editor.fontWeight": "normal",
     "editor.letterSpacing": 0,
+    "editor.tabSize": 2,
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "files.eol": "\n",
@@ -19,5 +20,8 @@
     "emmet.triggerExpansionOnTab": true,
     "emmet.includeLanguages": {
         "blade": "html"
+    },
+    "[php]": {
+        "editor.tabSize": 4
     },
 }
