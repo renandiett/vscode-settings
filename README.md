@@ -13,3 +13,5 @@
 * [Aria Templates Syntax Highlighter](https://marketplace.visualstudio.com/items?itemName=maxim.vscode-ariatemplates-highlighter)
 * [Apache Conf](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-apache)
 * [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
+* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+* [Aria Templates Syntax Highlighter](https://marketplace.visualstudio.com/items?itemName=maxim.vscode-ariatemplates-highlighter)
