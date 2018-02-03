@@ -1,5 +1,5 @@
 # Theme
-[Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
+[Dracula](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
 
 # Extensions
 * [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
