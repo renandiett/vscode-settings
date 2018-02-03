@@ -15,4 +15,4 @@
 * [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 * [Aria Templates Syntax Highlighter](https://marketplace.visualstudio.com/items?itemName=maxim.vscode-ariatemplates-highlighter)
-* [Vue 2 Snippets](https://marketplace.visualstudio.com/items?itemName=hollowtree.vue-snippets)
+* [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
