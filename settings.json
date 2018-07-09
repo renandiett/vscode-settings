@@ -2,12 +2,13 @@
 {
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
     "workbench.iconTheme": "vscode-icons",
+    "window.titleBarStyle": "custom",
     "window.zoomLevel": 0,
     "editor.formatOnPaste": true,
     "editor.wordWrap": "off",
     "editor.fontFamily": "Menlo, Consolas, 'Courier New', monospace",
     "editor.fontSize": 16,
-    "editor.lineHeight": 34,
+    "editor.lineHeight": 28,
     "editor.fontWeight": "normal",
     "editor.letterSpacing": 0,
     "editor.tabSize": 2,
@@ -28,4 +29,6 @@
     "[blade]": {
         "editor.tabSize": 4
     },
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.rendererType": "dom",
 }
