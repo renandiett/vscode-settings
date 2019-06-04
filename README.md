@@ -1,5 +1,5 @@
 # Theme
-[Dracula](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
+[Ayu Mirage](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu)
 
 # Extensions
 * [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
