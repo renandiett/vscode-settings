@@ -22,7 +22,7 @@
     "emmet.includeLanguages": {
         "blade": "html"
     },
-    "workbench.colorTheme": "Dracula Soft",
+    "workbench.colorTheme": "Ayu Mirage",
     "[php]": {
         "editor.tabSize": 4
     },
