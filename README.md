@@ -16,3 +16,20 @@
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 * [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 * [Firebase](https://marketplace.visualstudio.com/items?itemName=toba.vsfire)
+
+Others:
+* change-case
+* Dart Data Class Generator
+* Jest
+* Lorem Ipsum
+* Pubspec Assist
+* Random Everything
+* Remote WSL
+* TabOut
+* Todo Tree
+* vscode-faker
+* Awesome Flutter Snippets
+* Dart
+* Flutter
+* Prettier
+* Spaces Inside Braces
