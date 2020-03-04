@@ -1,34 +1,71 @@
 // Colocar suas configurações nesse arquivo para sobrecrever as configurações padrão
 {
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
-    "workbench.iconTheme": "vscode-icons",
-    "window.titleBarStyle": "custom",
-    "window.zoomLevel": 0,
-    "editor.formatOnPaste": true,
-    "editor.wordWrap": "off",
-    "editor.fontFamily": "Menlo, Consolas, 'Courier New', monospace",
-    "editor.fontSize": 16,
-    "editor.lineHeight": 28,
-    "editor.fontWeight": "normal",
-    "editor.letterSpacing": 0,
-    "editor.tabSize": 2,
-    "editor.autoIndent": false,
-    "files.trimTrailingWhitespace": true,
-    "files.insertFinalNewline": true,
-    "files.eol": "\n",
-    "git.autofetch": true,
-    "git.enableSmartCommit": true,
-    "emmet.triggerExpansionOnTab": true,
-    "emmet.includeLanguages": {
-        "blade": "html"
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 0,
+  "editor.wordWrap": "off",
+  "editor.fontFamily": "Menlo, Consolas, 'Courier New', monospace",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 28,
+  "editor.fontWeight": "normal",
+  "editor.letterSpacing": 0,
+  "editor.tabSize": 2,
+  "editor.autoIndent": false,
+  "files.trimTrailingWhitespace": true,
+  "files.eol": "\n",
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "blade": "html"
+  },
+  "[php]": {
+    "editor.tabSize": 4
+  },
+  "[blade]": {
+    "editor.tabSize": 4
+  },
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.rendererType": "dom",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "php.validate.executablePath": "C:\\wamp\\bin\\php\\php7.2.8\\php.exe",
+  "breadcrumbs.enabled": true,
+  "editor.minimap.enabled": true,
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": false,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "trailing-spaces.trimOnSave": true,
+  "trailing-spaces.saveAfterTrim": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "terminal.integrated.fontSize": 16,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "typescript",
+      "autoFix": true
     },
-    "workbench.colorTheme": "Ayu Mirage",
-    "[php]": {
-        "editor.tabSize": 4
-    },
-    "[blade]": {
-        "editor.tabSize": 4
-    },
-    "explorer.confirmDragAndDrop": false,
-    "terminal.integrated.rendererType": "dom",
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.statusBar.visible": true,
+  "search.exclude": {
+    "**/public": true
+  },
+  "prettier.printWidth": 1000,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.smoothScrolling": true,
+  "editor.mouseWheelScrollSensitivity": 3,
+  "todo-tree.tree.showScanModeButton": false
 }
