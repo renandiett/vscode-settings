@@ -32,4 +32,3 @@ Others:
 * Dart
 * Flutter
 * Prettier
-* Spaces Inside Braces
