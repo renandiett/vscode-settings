@@ -10,7 +10,7 @@
   "editor.fontWeight": "normal",
   "editor.letterSpacing": 0,
   "editor.tabSize": 2,
-  "editor.autoIndent": false,
+  "editor.autoIndent": "none",
   "files.trimTrailingWhitespace": true,
   "files.eol": "\n",
   "git.autofetch": true,
