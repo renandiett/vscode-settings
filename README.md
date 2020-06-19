@@ -18,6 +18,7 @@
 * [Firebase](https://marketplace.visualstudio.com/items?itemName=toba.vsfire)
 
 Others:
+* PHP Intelephense
 * change-case
 * Dart Data Class Generator
 * Jest
